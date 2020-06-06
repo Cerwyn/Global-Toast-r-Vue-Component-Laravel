@@ -42,7 +42,7 @@ export default {
         hide(){
             setTimeout(()=>{
                 this.show = false;
-            }, 5000);
+            }, 2000);
         }
     }
 }
