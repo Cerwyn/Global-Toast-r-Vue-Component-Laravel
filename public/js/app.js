@@ -2017,10 +2017,11 @@ __webpack_require__.r(__webpack_exports__);
   props: ["title", "body"],
   data: function data() {
     return {
-      stacks: [{
-        title: "Example Title #1",
-        body: "Example Body #1 from Toast Stack"
-      }],
+      stacks: [// {
+        //   title: "Example Title #1",
+        //   body: "Example Body #1 from Toast Stack"
+        // }
+      ],
       timeoutStarted: false
     };
   },

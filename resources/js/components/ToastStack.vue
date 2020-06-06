@@ -20,10 +20,10 @@ export default {
   data() {
     return {
       stacks: [
-        {
-          title: "Example Title #1",
-          body: "Example Body #1 from Toast Stack"
-        }
+        // {
+        //   title: "Example Title #1",
+        //   body: "Example Body #1 from Toast Stack"
+        // }
       ],
       timeoutStarted: false
     };

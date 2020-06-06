@@ -83,10 +83,10 @@
                 <div class="title m-b-md">
                     Laravel
                 </div>
-
-                <toast-success title="{{ session('success-title') }}" body="{{ session('success-body') }} "></toast-success>
-                <toast-error title="{{ session('error-title') }}" body="{{ session('error-body') }}" ></toast-error>
-                <toast-stack title="{{ session('stack-title') }}" body="{{ session('stack-body') }}" ></toast-stack>
+                
+                <toast-success title="{{ session('success-title')??$successTitle??'' }}" body="{{ session('success-body')??$successBody??'' }} "></toast-success>
+                <toast-error title="{{ session('error-title')??$errorTitle??'' }}" body="{{ session('error-body')??$errorBody??'' }}" ></toast-error>
+                <toast-stack title="{{ session('stack-title')??$stackTitle??'' }}" body="{{ session('stack-body')??$stackBody??'' }}" ></toast-stack>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
