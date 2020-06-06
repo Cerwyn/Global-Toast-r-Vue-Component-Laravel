@@ -86,7 +86,7 @@
 
                 <toast-success title="{{ session('toast-success') }}" body="{{ session('toast-success') }} "></toast-success>
                 <toast-error title="{{ session('toast-error') }}" body="{{ session('toast-error') }}" ></toast-error>
-                <toast-stack title="{{ session('toast-error') }}" body="{{ session('toast-error') }}" ></toast-stack>
+                <toast-stack title="{{ session('toast-stack') }}" body="{{ session('toast-stack') }}" ></toast-stack>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
